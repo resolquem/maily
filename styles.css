@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+body{
+background-color: white;
+text-align: center;
+}
+input[type=text]{
+background-color: green;
+color:white;
+width: 150px;
+height: 30px;
+border-radius: 25px;
+font-family: 'Fredoka', sans-serif;
+}
+h1 {
+font-family: 'Fredoka', sans-serif;
+}
+button {
+background-color: red;
+border-radius: 25px;.
+font-family: 'Fredoka', sans-serif;
+color: white;
+}
+textarea {
+background-color: green;
+color:white;
+width: 518px;
+height: 180px;
+border-radius: 25px;
+font-family: 'Fredoka', sans-serif;
+}
+h1 {
+font-family: 'Fredoka', sans-serif;
+}
+button {
+background-color: red;
+border-radius: 25px;.
+font-family: 'Fredoka', sans-serif;
+color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-family: 'Fredoka', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+}
