@@ -60,7 +60,7 @@
         if (window.onNewError) window.onNewError()
       }
     </script>
-    <link rel="shortcut icon" type="image/png" href="./favicon.png"> <style>
+     <style>
 html,
 body {
   height: 100%;
@@ -363,20 +363,20 @@ body,
 #wrapper { height: 100vh; width: 133.33333333333331vh; }
 }
 #loading-progress {
-border: 1px solid #2bff00;
+border: 1px solid #00ffff;
 }
 #loading-progress::before {
-color: #2bff00;
+color: #00ffff;
 }
 #loading-progress::after {
-background-color: #2bff00;
+background-color: #00ffff;
 }
 .monitor {
 color: #ffffff;
 }
 </style>
   </head>
-  <body class="loading show-loading-progress show-fullscreen-btn show-monitor-box">
+  <body class="loading show-loading-progress show-start-stop-btns show-fullscreen-btn show-monitor-box">
     <div id="wrapper">
       <canvas id="stage"></canvas>
       <div id="monitors"></div>
@@ -386,7 +386,7 @@ color: #ffffff;
       </div>
     </div>
     <div id="loading-progress" data-progress="0%"></div>
-    <img src="./loading.jpg" id="loading-image"> 
+     
     <div class="buttons">
       <!--
         Only support sprite files (no images) for now. See
@@ -1407,7 +1407,7 @@ window.download = (blob, name = 'download') => {
 }
 
 </script> <script>
-const GENERATED = 1647711782235
+const GENERATED = 1647712092139
 const initOptions = {
 	"width": 480,
 	"height": 360,
@@ -1418,7 +1418,7 @@ const initOptions = {
 	"fencing": true,
 	"pointerLock": false,
 	"autoStart": true,
-	"username": "user",
+	"username": "ScratchCat",
 	"loadingProgress": true,
 	"cloud": {
 		"serverUrl": null,
@@ -1432,12 +1432,14 @@ const initOptions = {
 	"assets": {
 		"project": "./project.json",
 		"8206f1281ea26998427861817b6dd5ae.png": "./8206f1281ea26998427861817b6dd5ae.png",
-		"83a9787d4cb6f3b7632b4ddfebf74367.wav": "./83a9787d4cb6f3b7632b4ddfebf74367.wav",
 		"16c644789e7b75166e4357483a70cd4c.png": "./16c644789e7b75166e4357483a70cd4c.png",
-		"dbbc5c24da5fded79f1c7bc6e646e5d5.png": "./dbbc5c24da5fded79f1c7bc6e646e5d5.png",
-		"26a566666b373e3d231d88d9873d7bbc.png": "./26a566666b373e3d231d88d9873d7bbc.png",
+		"83a9787d4cb6f3b7632b4ddfebf74367.wav": "./83a9787d4cb6f3b7632b4ddfebf74367.wav",
 		"106d1e40aa613d8aee4c7532e1e63981.png": "./106d1e40aa613d8aee4c7532e1e63981.png",
 		"9325560e5099c196530c0f91e72e29f7.png": "./9325560e5099c196530c0f91e72e29f7.png",
+		"dbbc5c24da5fded79f1c7bc6e646e5d5.png": "./dbbc5c24da5fded79f1c7bc6e646e5d5.png",
+		"350d8c27ca5e441e99c12f2cd22dcf1b.png": "./350d8c27ca5e441e99c12f2cd22dcf1b.png",
+		"94ddd0e0b8272f87f350685e545577ff.png": "./94ddd0e0b8272f87f350685e545577ff.png",
+		"26a566666b373e3d231d88d9873d7bbc.png": "./26a566666b373e3d231d88d9873d7bbc.png",
 		"bf0e029587242f9567ad32f52bb36fee.png": "./bf0e029587242f9567ad32f52bb36fee.png",
 		"acbf339ddf74ec5af1f6386aedfad388.png": "./acbf339ddf74ec5af1f6386aedfad388.png",
 		"f7847d35cebb161d5cbb60166913154c.png": "./f7847d35cebb161d5cbb60166913154c.png",
@@ -1450,12 +1452,13 @@ const initOptions = {
 		"d40ff38d8d8122f8bd5760cd78a01896.png": "./d40ff38d8d8122f8bd5760cd78a01896.png",
 		"76f5ac242d5247c99bdfa9f65a20e09d.png": "./76f5ac242d5247c99bdfa9f65a20e09d.png",
 		"2c5800f91929babfffc1ea100a75f32b.png": "./2c5800f91929babfffc1ea100a75f32b.png",
-		"350d8c27ca5e441e99c12f2cd22dcf1b.png": "./350d8c27ca5e441e99c12f2cd22dcf1b.png",
-		"94ddd0e0b8272f87f350685e545577ff.png": "./94ddd0e0b8272f87f350685e545577ff.png",
 		"737814fccd94a3f5b8f47dfa1dad5d92.png": "./737814fccd94a3f5b8f47dfa1dad5d92.png",
-		"c26ae3ad9be973f272b4fca7a9a43c9a.png": "./c26ae3ad9be973f272b4fca7a9a43c9a.png",
 		"13624465f48ad9c2b453d9349d57c878.png": "./13624465f48ad9c2b453d9349d57c878.png",
 		"42c8a26f0ce07a6d41c7c3a9fcc1f72f.png": "./42c8a26f0ce07a6d41c7c3a9fcc1f72f.png",
+		"c26ae3ad9be973f272b4fca7a9a43c9a.png": "./c26ae3ad9be973f272b4fca7a9a43c9a.png",
+		"dc9553fd440a6f1e47ed0df32e0e1c23.png": "./dc9553fd440a6f1e47ed0df32e0e1c23.png",
+		"de910b3301fa08e533fd2357ed309286.png": "./de910b3301fa08e533fd2357ed309286.png",
+		"3988df61a923903d1a64f787e0c0ee14.png": "./3988df61a923903d1a64f787e0c0ee14.png",
 		"63ede19c151dcf8889695a89ff5fbf75.png": "./63ede19c151dcf8889695a89ff5fbf75.png",
 		"7937c2e901d9e61fb755f7e73a9962f4.png": "./7937c2e901d9e61fb755f7e73a9962f4.png",
 		"426467b49434fb071c03237e0b112d57.png": "./426467b49434fb071c03237e0b112d57.png",
@@ -1508,10 +1511,7 @@ const initOptions = {
 		"c19de40493046a99f8bae5475bd69b59.png": "./c19de40493046a99f8bae5475bd69b59.png",
 		"e82241c43bcf62a2e59c8b6afe191351.svg": "./e82241c43bcf62a2e59c8b6afe191351.svg",
 		"3b7600ee7f76e3a8d9b8e0584652d4d9.svg": "./3b7600ee7f76e3a8d9b8e0584652d4d9.svg",
-		"c6ac519302234b0c7424a5c49528cfdd.png": "./c6ac519302234b0c7424a5c49528cfdd.png",
-		"dc9553fd440a6f1e47ed0df32e0e1c23.png": "./dc9553fd440a6f1e47ed0df32e0e1c23.png",
-		"de910b3301fa08e533fd2357ed309286.png": "./de910b3301fa08e533fd2357ed309286.png",
-		"3988df61a923903d1a64f787e0c0ee14.png": "./3988df61a923903d1a64f787e0c0ee14.png"
+		"c6ac519302234b0c7424a5c49528cfdd.png": "./c6ac519302234b0c7424a5c49528cfdd.png"
 	}
 }
 init(initOptions)
